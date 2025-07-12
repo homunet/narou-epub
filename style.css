@@ -1,0 +1,30 @@
+.p-novel__body p{
+  font-size: 1em;
+  padding-left: 0;
+  padding-right: 0;
+  margin: 0 5pt;
+  background-color: transparent;
+  letter-spacing: 0;
+  padding: 0;
+  border: currentColor none 1pt;
+  display: block;
+  line-height: 21pt;
+  text-align: justify;
+  margin: 0;
+  padding: 0;
+}
+
+.p-novel__text p {
+  font-family: "serif-ja", serif;
+}
+
+.p-novel__text--preface p{
+  font-family: "sans-serif-ja", sans-serif;
+}
+
+
+.p-novel__text--preface{
+  border-bottom: 3px double white;
+  margin-bottom: 30px;
+  padding-bottom: 30px;
+}
