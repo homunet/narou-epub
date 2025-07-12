@@ -65,6 +65,8 @@
 	* 表紙に画像を設定したい場合には、」「追加された本を自動的に出力形式に変換」のチェックを外した上で、書誌一覧から対象の書誌を選択し、表紙を設定してから、以上と同じ設定を都度入力してください
 	![](images/calibre-convert.png)
 1. Calibreをこのためにしか使用しないのであれば、自動変換にして、変換設定を○に記載しておけば、htmlをリスト部分にドラッグアンドドロップするだけで、epubが生成されます。
+1. このスクリプトとは直接関係ありませんが、Generate Coverプラグインとkuzzzmaさんのデザインを使うと(https://www.blog.private-universe.net/2025/02/28/calibre-book-cover-templates/)、Kindle上で一覧で本が見分けやすくなります。
+![](images/calibre-generate-cover-plugin.jpg)
 ## 制限事項
 * タイトルや本文の検出をHTML内のクラスで判別しています。このあたりは「小説家になろう」のCMS出力だと思いますので、仕様が変わると動作しなくなります。
 
